@@ -84,8 +84,8 @@ public class CustomNamespace extends ManagedNamespace {
         Feeder2CreationInterval = createUaVariableNode(newNodeId("10-unique-identifier"), AccessLevel.READ_WRITE, AccessLevel.READ_WRITE, Identifiers.Int32, "Feeder2 CreationInterval", "Updating the Feeder2 Interval", "Get the Feeder1 Interval");
 
         // Set initial values for the variables
-        Feeder1CreationInterval.setValue(new DataValue(new Variant(5)));
-        Feeder2CreationInterval.setValue(new DataValue(new Variant(5)));
+        Feeder1CreationInterval.setValue(new DataValue(new Variant(6)));
+        Feeder2CreationInterval.setValue(new DataValue(new Variant(6)));
 
 
 
